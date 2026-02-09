@@ -2,32 +2,48 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Glow Skincare Guide</title>
+<title>Glow Skincare products</title>
 
 <style>
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f9f9f9;
+    background-color: #f9f9f9;
 }
 header {
-    background: #ffe6ec;
-    padding: 20px;
+    background-color: #ffe6ec;
+    padding: 25px;
     text-align: center;
 }
+header h1 {
+    margin: 0;
+}
+nav {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #e91e63;
+    font-weight: bold;
+}
 section {
-    padding: 20px;
+    padding: 25px;
 }
 .product {
     background: white;
     padding: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 8px;
 }
-a {
-    color: white;
+.buy {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
     background: #e91e63;
-    padding: 8px 12px;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -35,7 +51,8 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
+    font-size: 14px;
 }
 </style>
 </head>
@@ -47,22 +64,42 @@ footer {
     <p>Simple skincare product picks</p>
 </header>
 
-<section>
-    <h2>Products</h2>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#disclosure">Disclosure</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome</h2>
+    <p>
+        This website shares honest skincare product recommendations for healthy skin.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Skincare Products</h2>
 
     <div class="product">
         <h3>Vitamin C Serum</h3>
-        <p>Improves glow and brightness</p>
-        <a href="#">Buy on Amazon</a>
+        <p>Brightens skin and improves glow.</p>
+        <a class="buy" href="https://www.amazon.in/Minimalist-Formulated-Sensitive-Irritating-Brightening/dp/B0CW1M1BC1?crid=1K0EQ4RIBLFF1&dib=eyJ2IjoiMSJ9.il8XE7EIRzQk4IJNflJJ2rVe9uUXfDl_bLs85XTTuaEMZ4qxZ1yGjVbZx05M1IO3GUYQc6gS_y6GAGUiAUL1lDoz844X--l64N2Q7hV31_Nmtk2-JVIfsyfUpQdtbN0MEyaANrq1HiJ0IsE-8FjT50ptSvA1sUWFgE6hPCAYvQ5yZdZuifoeOWhVuDOgfuMoHCAaYKPVMcmHvNSti_wmLUeY3rTHMsJDZRhFTtz2sMlElNT-Uv2awqMkAlkXVwxgjOiCH_suQT1IV3LTYswt28qWn_VvIobhAVkZ6WGxiJY.Y8buteeBz0Xw1CsAddOiPftoaka0T6FRY5OoEdInZ7s&dib_tag=se&keywords=vitamin%2Bc%2Bserum%2Bfor%2Bglowing%2Bskin&qid=1770651172&sprefix=vitamin%2Bc%2Bserum%2Caps%2C593&sr=8-1-spons&aref=PrlFJM1Ezl&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=shopwithpins2-21&linkId=43ff4c46a3a7b6aec83aec5b9a54c65d&ref_=as_li_ss_tl"target="_blank">Buy on Amazon</a>
     </div>
 
     <div class="product">
-        <h3>Gentle Cleanser</h3>
-        <p>Cleans skin without dryness</p>
-        <a href="#">Buy on Amazon</a>
+        <h3>Gentle Face Cleanser</h3>
+        <p>Cleans skin without dryness.</p>
+        <a class="buy" href="https://www.amazon.in/Cetaphil-Hydrating-Sulphate-Free-Niacinamide-Sensitive/dp/B01CCGW4OE?crid=1CZIK0PMUYYY5&dib=eyJ2IjoiMSJ9.1qredfI4l7tA8eXxVjAUVyXm69mQ2wITEAzl8z8owfE7G1G3IKSEKHQ-LNbVhJISG9jyXRvVPVgf70sYFOxo_-9DiYZRDLovquCt9aCcfwjkyI0CeKQNxLWeQHBc30x-6Ij4JqYLeefVLfHM0UA75acFk4HT4o4iu-6dJS7eFFFPRspP9XbcrGKG8juQhxiBZLu1SvSb43rJd2vTUyCotOHtUSGvmtInWVSIBQ8qe7albD4qn-Fi3CwgfPlnOX8YNkRUmSdnS8b8O5V3ZktdLbuwdm3CsVnB6uzaJsDUZUk.iljYK_N4B4vS7qleS_DELyMSTFVcB67KcrW-Ujk4aJM&dib_tag=se&keywords=cetaphil%2Bgentle%2Bcleanser&qid=1770651610&sprefix=ceta%2Caps%2C469&sr=8-5&th=1&linkCode=ll2&tag=shopwithpins2-21&linkId=2b9a6deafb6f4ace296057a656dc2e85&ref_=as_li_ss_tl"target="_blank">Buy on Amazon</a>
+    </div>
+
+    <div class="product">
+        <h3>Daily Moisturizer</h3>
+        <p>Keeps skin soft and hydrated.</p>
+        <a class="buy" href="https://www.amazon.in/Plum-Niacinamide-Moisturizer-MatmarineTM-Lightweight/dp/B0C2Z5F5TJ?crid=2ENO2WNJXG3PO&dib=eyJ2IjoiMSJ9.DIbT90MWmLz7DkNgWoY_A2fv2gO_6M3CalcI65d6ohEJOaSimakjLpYKNxff9KwSCrw3xZXpbcEKhRx0R_R6y5Ppw9zwRuc0VjqoRW-QP0yJzpBTzJKTiZx8PfuWsMq0Jord2ShIGUscNQ16lcClYyJi-3NDkB9hLVUFbcM6hYc4h75w7KIdHXDvZFmgNkw10B96beVYgtepm--YpdXp_hBOs8a1hsZ62ym40liMl8yhN8GpSucrk4109VZVWbPp1eI_WyPR6SjsmOf51PVlAzp7-2WmvlZAlIpmjkty7QU.RqMJMVHP1vbgPKB_elqweI5DMu7QprrpqW50P7h20nM&dib_tag=se&keywords=plum%2Bmoisturizer&qid=1770651734&sprefix=plum%2Bmois%2Caps%2C477&sr=8-5&th=1&linkCode=ll2&tag=shopwithpins2-21&linkId=f2edfcdf8483a2e925dc837e3a0608f9&ref_=as_li_ss_tl"target="_blank">Buy on Amazon</a>
     </div>
 
 </section>
+
 
 <footer>
     © 2026 Glow Skincare Guide
